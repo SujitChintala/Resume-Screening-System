@@ -191,16 +191,20 @@ Contributions are welcome! Feel free to:
 - Suggest new features
 - Submit pull requests
 
-## 📄 License
 
-This project is open source and available under the MIT License.
+## 👨‍💻 Author
 
-## 👤 Author
-
-Created as a portfolio project to demonstrate machine learning and web development skills.
+- GitHub: [SujitChintala](https://github.com/SujitChintala)
+- LinkedIn: [Saai Sujit Chintala](https://www.linkedin.com/in/sujitchintala/)
+- Email: sujitchintala@gmail.com
 
 ## 🙏 Acknowledgments
 
 - Dataset: Resume dataset from various sources
 - Libraries: Scikit-learn, Flask, and other open-source tools
 
+<div align="center">
+
+**⭐ Star this repository if you find it helpful!**
+
+</div>
