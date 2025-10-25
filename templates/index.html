@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Screening System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📄 Resume Screening System</h1>
+            <p class="subtitle">Intelligent AI-powered resume classification</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>Upload Resume</h2>
+                <div class="input-section">
+                    <textarea 
+                        id="resumeText" 
+                        placeholder="Paste your resume text here or upload a file..."
+                        rows="12"
+                    ></textarea>
+                    
+                    <div class="file-upload-section">
+                        <label for="fileInput" class="file-label">
+                            📎 Or upload a file (PDF/TXT)
+                        </label>
+                        <input 
+                            type="file" 
+                            id="fileInput" 
+                            accept=".txt,.pdf"
+                            style="display: none;"
+                        >
+                    </div>
+                    
+                    <div class="button-group">
+                        <button id="analyzeBtn" class="btn btn-primary">
+                            🔍 Analyze Resume
+                        </button>
+                        <button id="clearBtn" class="btn btn-secondary">
+                            🗑️ Clear
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="resultsCard" class="card results-card" style="display: none;">
+                <h2>Analysis Results</h2>
+                <div id="resultsContent"></div>
+            </div>
+
+            <div id="loadingSpinner" class="loading-spinner" style="display: none;">
+                <div class="spinner"></div>
+                <p>Analyzing resume...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Powered by Machine Learning | Built with Flask & Scikit-learn</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
