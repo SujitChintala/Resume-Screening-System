@@ -82,7 +82,7 @@ Expected accuracy: **95%+** (varies based on dataset)
 
 ## 🔧 Installation & Setup
 
-Please refer to the [SETUP.md](SETUP.md) file for detailed installation and setup instructions.
+Please refer to the [QUICKSETUP.md](QUICKSETUP.md) file for installation and setup instructions.
 
 ## 📖 Usage
 
