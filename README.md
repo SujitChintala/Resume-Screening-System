@@ -23,7 +23,7 @@ This project implements an end-to-end resume screening system that:
 - **Real-time Analysis**: Instant resume classification results
 - **Confidence Scores**: Shows prediction confidence and top 3 matches
 - **Text Processing**: Advanced NLP techniques for resume text cleaning
-- **Easy to Use**: Upload text files or paste resume content directly
+- **Easy to Use**: Upload text files or PDFs or paste resume content directly
 
 ## 🏗️ Project Structure
 
@@ -203,13 +203,4 @@ Created as a portfolio project to demonstrate machine learning and web developme
 
 - Dataset: Resume dataset from various sources
 - Libraries: Scikit-learn, Flask, and other open-source tools
-- Inspiration: Automated recruitment and HR tech solutions
 
----
-
-**Note**: This is a demonstration project suitable for portfolios and learning purposes. For production use, consider adding:
-- User authentication
-- Database integration
-- File upload validation
-- Enhanced security features
-- Deployment configuration
