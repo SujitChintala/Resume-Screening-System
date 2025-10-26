@@ -73,7 +73,7 @@ Open your browser and go to: **http://localhost:5000**
 .\run.bat
 ```
 
-### Mac/Linux
+### MacOS/Linux
 
 ```bash
 .\run.sh
