@@ -30,7 +30,6 @@ ENV/
 .vscode/
 .idea/
 *.swp
-*.swo
 *~
 
 # Model files (optional - uncomment if you don't want to track models)
