@@ -10,6 +10,7 @@ import re
 import os
 from PyPDF2 import PdfReader
 from werkzeug.utils import secure_filename
+import pandas as pd
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
 CORS(app)
